@@ -1,0 +1,17 @@
+{
+  "name": "tp1-esquivel-mariano",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "start": "node --loader ts-node/esm src/main.ts"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2"
+  }
+}
+
