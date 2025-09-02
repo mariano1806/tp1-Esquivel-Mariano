@@ -1,4 +1,4 @@
-export interface ICompetidor {
-    nombre : string;    
-    listaIntegrantes : string[];
-}   
+export default interface ICompetidor {
+  nombre: string;
+  listarIntegrantes(): string[];
+}
